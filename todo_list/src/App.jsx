@@ -1,10 +1,15 @@
 import Header from './components/Header'
 import TodoItem from './components/TodoItem'
 import AddTask from './components/AddTask'
+import TaskForm from './components/TaskForm'
 import './App.css'
 
 
 function App() {
+
+  function AddTask(e) {
+    
+  }
 
   const tasks = []
 
@@ -25,6 +30,7 @@ function App() {
         <Header />
         <AddTask />
         <h2>You currently have no tasks</h2>
+        <TaskForm />
       </div>
     )
   }
